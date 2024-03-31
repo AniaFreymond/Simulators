@@ -1,3 +1,6 @@
+# Example of how simple nonlinear dynamical systems can exhibit complex behaviour including chaos, following the logistic equation:
+# x_(n+1) = rx_n(1-x_n)
+
 import numpy as np
 import matplotlib.pyplot as plt
 
