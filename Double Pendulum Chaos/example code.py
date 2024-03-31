@@ -45,7 +45,7 @@ ax.set_xlim((-2.2, 2.2))
 ax.set_ylim((-2.2, 2.2))
 ax.set_title('Double Pendulum Chaos') 
 line, = ax.plot([], [], 'o-', lw=2, color='#00008b')
-trace, = ax.plot([], [], '.-', lw=1, ms=2, color='c')  # Changed color to dark blue
+trace, = ax.plot([], [], '-', lw=1, ms=2, color='c')  # Changed color to dark blue
 xdata, ydata = [], []
 xdata, ydata = [], []
 
